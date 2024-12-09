@@ -1,0 +1,27 @@
+s = "MCMXCIV"
+romans = {"I": 1,"V": 5,"X": 10,"L": 50,"C": 100,"D": 500,"M": 1000}
+
+1st iteration
+    i=0
+    res = 0
+    ifcon 1<7 and 1000<100:F
+    elsecon res = 1000
+2nd iteration
+    i = 1
+    res = 1000
+    ifcon 2<7 and 100<1000:T   res = 1000-100=900
+3rd iteration
+    i=2
+    res = 900
+    ifcon 3<7 and 1000<10:F
+    elsecon res = 900+1000 = 1900
+4th iteration
+    i=3
+    res = 1900
+    ifcon 4<7 and 10<100:T   res = 1900 - 10 = 1890
+
+5th iteration
+    i=4
+    res = 1890
+    ifcon 5<7 and 100<1:F
+    elsecon res = 1890 + 100 = 1990
